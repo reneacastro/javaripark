@@ -1,0 +1,1219 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="theme-color" content="#FBF7EE">
+<title>Oportunidade de Aquisição — Javari StrEat Park</title>
+<meta name="description" content="Dossiê de aquisição — bar consolidado na Mooca, 8 anos de operação, estrutura completa e pronta para continuidade imediata.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --paper:      #FBF7EE;
+    --paper-2:    #F2ECDD;
+    --ink:        #1A1610;
+    --ink-mute:   #5C564A;
+    --ink-dim:    #8A8172;
+    --rule:       #D7D0C2;
+    --rule-2:     #B8AE9C;
+    --amber:      #B57A1A;
+    --amber-dk:   #8B5A0F;
+    --amber-vivid:#E0A02C;
+    --amber-2:    #F3C25A;
+    --moss:       #5C6B4A;
+
+    --dark-bg:    #0B0A08;
+    --dark-ink:   #F4EFE4;
+    --dark-mute:  #BDB4A3;
+  }
+
+  *{ box-sizing:border-box; margin:0; padding:0 }
+  html{ scroll-behavior:smooth; -webkit-text-size-adjust:100% }
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Manrope', system-ui, -apple-system, Arial, sans-serif;
+    font-weight:400;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    font-feature-settings:"ss01","ss02","cv11";
+    overflow-x:hidden;
+  }
+
+  img{ display:block; max-width:100%; height:auto }
+  em{ font-style:italic }
+
+  ::selection{ background:var(--amber); color:var(--paper) }
+
+  .wrap{
+    max-width:1180px;
+    margin:0 auto;
+    padding:0 28px;
+  }
+
+  /* ============================================================
+     HERO — escuro com foto e blur
+     ============================================================ */
+  .hero{
+    position:relative;
+    min-height:100vh;
+    min-height:100dvh;
+    display:flex;
+    align-items:flex-end;
+    padding:90px 0 70px;
+    overflow:hidden;
+    isolation:isolate;
+    background:var(--dark-bg);
+    color:var(--dark-ink);
+  }
+  .hero-media{ position:absolute; inset:0; z-index:-1 }
+  .hero-media img{
+    width:100%; height:100%;
+    object-fit:cover;
+    object-position:center 60%;
+    filter:brightness(.55) saturate(.9) contrast(1.05) blur(6px);
+    transform:scale(1.08);
+  }
+  .hero-media::after{
+    content:"";
+    position:absolute; inset:0;
+    background:
+      radial-gradient(ellipse at 20% 80%, rgba(181,122,26,.22), transparent 55%),
+      linear-gradient(180deg, rgba(11,10,8,.55) 0%, rgba(11,10,8,.3) 35%, rgba(11,10,8,.88) 85%, var(--paper) 100%);
+  }
+
+  .stamp{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:7px 14px;
+    border:1px solid rgba(244,239,228,.3);
+    border-radius:999px;
+    font-size:11px;
+    letter-spacing:.24em;
+    text-transform:uppercase;
+    color:var(--amber-2);
+    margin-bottom:32px;
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+  }
+  .stamp .dot{
+    width:6px; height:6px; border-radius:999px;
+    background:var(--amber-vivid);
+    box-shadow:0 0 0 4px rgba(224,160,44,.15);
+  }
+
+  h1.title{
+    font-family:'Fraunces', Georgia, serif;
+    font-weight:400;
+    font-size:clamp(38px, 7vw, 92px);
+    line-height:1.02;
+    letter-spacing:-.025em;
+    max-width:16ch;
+    margin-bottom:28px;
+    color:var(--dark-ink);
+    text-shadow:0 2px 30px rgba(0,0,0,.5);
+  }
+  h1.title em{
+    font-style:italic;
+    font-weight:300;
+    color:var(--amber-2);
+  }
+
+  .lead{
+    font-size:clamp(15px, 1.25vw, 19px);
+    color:var(--dark-ink);
+    max-width:56ch;
+    line-height:1.6;
+    margin-bottom:44px;
+    text-shadow:0 1px 20px rgba(0,0,0,.5);
+  }
+
+  .hero-row{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:48px;
+    align-items:end;
+    padding-top:26px;
+    border-top:1px solid rgba(244,239,228,.2);
+  }
+
+  .price-label{
+    font-size:11px;
+    letter-spacing:.24em;
+    text-transform:uppercase;
+    color:var(--amber-2);
+    margin-bottom:14px;
+  }
+  .price{
+    font-family:'Fraunces', serif;
+    font-weight:300;
+    font-size:clamp(42px, 5.6vw, 74px);
+    line-height:1;
+    letter-spacing:-.02em;
+    color:var(--dark-ink);
+  }
+  .price-note{
+    margin-top:14px;
+    font-size:13.5px;
+    color:var(--dark-mute);
+    max-width:42ch;
+  }
+
+  .cta-stack{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    align-items:flex-start;
+  }
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:15px 22px;
+    border-radius:4px;
+    font-size:14px;
+    font-weight:500;
+    letter-spacing:.02em;
+    text-decoration:none;
+    transition:transform .18s ease, background .18s ease, border-color .18s ease, color .18s ease;
+  }
+  .btn-primary{
+    background:var(--amber-vivid);
+    color:#1A1408;
+    border:1px solid var(--amber-vivid);
+  }
+  .btn-primary:hover{
+    background:var(--amber-2);
+    border-color:var(--amber-2);
+    transform:translateY(-1px);
+  }
+  .btn svg{ width:14px; height:14px; flex-shrink:0 }
+
+  /* Botão ghost em fundos escuros (hero/pullquote) */
+  .hero .btn-ghost,
+  .pullquote .btn-ghost{
+    background:rgba(11,10,8,.4);
+    color:var(--dark-ink);
+    border:1px solid rgba(244,239,228,.3);
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+  }
+  .hero .btn-ghost:hover,
+  .pullquote .btn-ghost:hover{
+    border-color:var(--dark-ink);
+    transform:translateY(-1px);
+  }
+
+  /* Botão ghost em fundos paper */
+  .btn-ghost{
+    background:rgba(251,247,238,.6);
+    color:var(--ink);
+    border:1px solid var(--rule-2);
+  }
+  .btn-ghost:hover{
+    background:var(--paper-2);
+    border-color:var(--ink);
+    transform:translateY(-1px);
+  }
+
+  .meta-line{
+    margin-top:36px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px 22px;
+    font-size:13px;
+    color:var(--dark-mute);
+    letter-spacing:.02em;
+  }
+  .meta-line span{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+  }
+  .meta-line span::before{
+    content:"";
+    width:3px; height:3px;
+    border-radius:999px;
+    background:var(--amber-vivid);
+    flex-shrink:0;
+  }
+
+  /* ============================================================
+     SEÇÕES — paleta paper
+     ============================================================ */
+  section.content{
+    padding:100px 0;
+    position:relative;
+    background:var(--paper);
+  }
+  section.content + section.content{
+    border-top:1px solid var(--rule);
+  }
+
+  .sect-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:48px;
+    gap:24px;
+    flex-wrap:wrap;
+  }
+  .sect-num{
+    font-family:'Fraunces', serif;
+    font-size:13px;
+    color:var(--amber);
+    letter-spacing:.08em;
+    margin-bottom:6px;
+  }
+  h2{
+    font-family:'Fraunces', serif;
+    font-weight:400;
+    font-size:clamp(28px, 3.6vw, 46px);
+    letter-spacing:-.02em;
+    line-height:1.1;
+    max-width:22ch;
+    color:var(--ink);
+  }
+  h2 em{
+    font-style:italic;
+    color:var(--amber-dk);
+    font-weight:300;
+  }
+  .sect-sub{
+    font-size:15px;
+    color:var(--ink-mute);
+    max-width:46ch;
+    line-height:1.55;
+  }
+
+  /* KPIs */
+  .kpi-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    border-top:1px solid var(--rule);
+    border-left:1px solid var(--rule);
+  }
+  .kpi{
+    padding:32px 28px 30px;
+    border-right:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    min-height:160px;
+    justify-content:space-between;
+  }
+  .kpi-num{
+    font-family:'Fraunces', serif;
+    font-weight:300;
+    font-size:clamp(36px, 4vw, 56px);
+    line-height:1;
+    letter-spacing:-.02em;
+    color:var(--ink);
+  }
+  .kpi-num sup{
+    font-size:.48em;
+    color:var(--amber);
+    font-weight:400;
+    margin-left:4px;
+    vertical-align:super;
+    letter-spacing:0;
+  }
+  .kpi-label{
+    font-size:12.5px;
+    color:var(--ink-mute);
+    line-height:1.45;
+  }
+
+  /* Mosaicos */
+  .mosaic{
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    grid-auto-rows:140px;
+    gap:10px;
+    margin-top:10px;
+  }
+  .mosaic figure{
+    position:relative;
+    overflow:hidden;
+    background:var(--paper-2);
+  }
+  .mosaic figure img{
+    width:100%; height:100%;
+    object-fit:cover;
+    transition:transform .9s cubic-bezier(.2,.8,.2,1), filter .6s ease;
+    filter:saturate(.95) contrast(1.05);
+  }
+  .mosaic figure:hover img{
+    transform:scale(1.04);
+    filter:saturate(1.05) contrast(1.08);
+  }
+
+  .mosaic-ambient > *:nth-child(1){ grid-column:span 3; grid-row:span 3 }
+  .mosaic-ambient > *:nth-child(2){ grid-column:span 3; grid-row:span 2 }
+  .mosaic-ambient > *:nth-child(3){ grid-column:span 2; grid-row:span 2 }
+  .mosaic-ambient > *:nth-child(4){ grid-column:span 1; grid-row:span 1 }
+  .mosaic-ambient > *:nth-child(5){ grid-column:span 2; grid-row:span 1 }
+  .mosaic-shows > *:nth-child(1){ grid-column:span 4; grid-row:span 2 }
+  .mosaic-shows > *:nth-child(2){ grid-column:span 2; grid-row:span 2 }
+  .mosaic-shows > *:nth-child(3){ grid-column:span 2; grid-row:span 2 }
+  .mosaic-shows > *:nth-child(4){ grid-column:span 4; grid-row:span 2 }
+
+  /* Listas duplas */
+  .dual{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:72px;
+  }
+  .list-label{
+    font-size:11px;
+    letter-spacing:.24em;
+    text-transform:uppercase;
+    color:var(--amber);
+    margin-bottom:22px;
+    padding-bottom:14px;
+    border-bottom:1px solid var(--rule-2);
+  }
+  ul.cols{ list-style:none }
+  ul.cols li{
+    padding:14px 0;
+    border-bottom:1px solid var(--rule);
+    display:flex;
+    gap:14px;
+    align-items:flex-start;
+    font-size:15px;
+    line-height:1.5;
+    color:var(--ink);
+  }
+  ul.cols li::before{
+    content:"";
+    display:block;
+    width:6px; height:6px;
+    border-radius:999px;
+    background:var(--amber);
+    margin-top:9px;
+    flex-shrink:0;
+    box-shadow:0 0 0 3px rgba(181,122,26,.12);
+  }
+  ul.cols li strong{
+    color:var(--ink);
+    font-weight:600;
+  }
+
+  /* ============================================================
+     PULL QUOTE — escuro com foto
+     ============================================================ */
+  .pullquote{
+    padding:0;
+    position:relative;
+    min-height:520px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    isolation:isolate;
+    background:var(--dark-bg);
+    border-top:1px solid var(--rule);
+  }
+  .pullquote-bg{ position:absolute; inset:0; z-index:-1 }
+  .pullquote-bg img{
+    width:100%; height:100%;
+    object-fit:cover;
+    object-position:center;
+    filter:brightness(.45) saturate(.85) contrast(1.1);
+  }
+  .pullquote-bg::after{
+    content:"";
+    position:absolute; inset:0;
+    background:
+      radial-gradient(ellipse at center, rgba(11,10,8,.2) 0%, rgba(11,10,8,.75) 80%),
+      linear-gradient(180deg, var(--paper) 0%, transparent 15%, transparent 85%, var(--paper) 100%);
+  }
+  .pullquote blockquote{
+    font-family:'Fraunces', serif;
+    font-weight:300;
+    font-style:italic;
+    font-size:clamp(28px, 4.2vw, 56px);
+    line-height:1.18;
+    letter-spacing:-.02em;
+    color:var(--dark-ink);
+    max-width:20ch;
+    text-align:center;
+    padding:0 28px;
+    text-shadow:0 2px 30px rgba(0,0,0,.6);
+  }
+  .pullquote blockquote span{
+    display:block;
+    margin-top:22px;
+    font-family:'Manrope', sans-serif;
+    font-size:12px;
+    letter-spacing:.28em;
+    text-transform:uppercase;
+    color:var(--amber-2);
+    font-style:normal;
+    font-weight:500;
+  }
+
+  /* ============================================================
+     FEATURE (Bus Lounge)
+     ============================================================ */
+  .feature{
+    display:grid;
+    grid-template-columns:1.1fr 1fr;
+    gap:0;
+    border:1px solid var(--rule);
+    background:var(--paper-2);
+    overflow:hidden;
+  }
+  .feature-media{
+    position:relative;
+    min-height:480px;
+    overflow:hidden;
+  }
+  .feature-media img{
+    position:absolute; inset:0;
+    width:100%; height:100%;
+    object-fit:cover;
+    filter:saturate(.95) contrast(1.05);
+    transition:transform 1s cubic-bezier(.2,.8,.2,1);
+  }
+  .feature:hover .feature-media img{ transform:scale(1.03) }
+  .feature-content{
+    padding:48px 44px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:20px;
+    background:var(--paper-2);
+  }
+  .feature-tag{
+    font-size:11px;
+    letter-spacing:.24em;
+    text-transform:uppercase;
+    color:var(--amber);
+  }
+  .feature-content h3{
+    font-family:'Fraunces', serif;
+    font-weight:400;
+    font-size:clamp(24px, 2.6vw, 36px);
+    line-height:1.15;
+    letter-spacing:-.015em;
+    color:var(--ink);
+  }
+  .feature-content h3 em{
+    font-style:italic;
+    color:var(--amber-dk);
+    font-weight:300;
+  }
+  .feature-content p{
+    color:var(--ink-mute);
+    font-size:15.5px;
+    line-height:1.6;
+  }
+  .feature-specs{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:0;
+    margin-top:10px;
+    border-top:1px solid var(--rule);
+  }
+  .feature-specs dt{
+    font-size:11px;
+    letter-spacing:.2em;
+    text-transform:uppercase;
+    color:var(--ink-dim);
+    padding:14px 0 4px;
+  }
+  .feature-specs dd{
+    font-size:14px;
+    color:var(--ink);
+    padding-bottom:14px;
+    border-bottom:1px solid var(--rule);
+  }
+
+  /* ============================================================
+     CARDS
+     ============================================================ */
+  .cards{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:1px;
+    background:var(--rule);
+    border:1px solid var(--rule);
+  }
+  .card{
+    background:var(--paper);
+    padding:38px 32px;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    min-height:220px;
+  }
+  .card-tag{
+    font-size:11px;
+    letter-spacing:.22em;
+    text-transform:uppercase;
+    color:var(--amber);
+  }
+  .card h3{
+    font-family:'Fraunces', serif;
+    font-weight:400;
+    font-size:22px;
+    line-height:1.15;
+    letter-spacing:-.01em;
+    color:var(--ink);
+  }
+  .card p{
+    font-size:14.5px;
+    color:var(--ink-mute);
+    line-height:1.55;
+  }
+
+  /* Parceiros */
+  .partners{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px 16px;
+    padding-top:8px;
+  }
+  .partners span{
+    padding:10px 16px;
+    border:1px solid var(--rule-2);
+    border-radius:2px;
+    font-size:13px;
+    color:var(--ink-mute);
+    letter-spacing:.04em;
+  }
+
+  /* Trust */
+  .trust{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:0;
+    border:1px solid var(--rule);
+  }
+  .trust-item{
+    padding:28px 30px;
+    border-right:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);
+    background:var(--paper);
+  }
+  .trust-item:nth-child(2n){ border-right:none }
+  .trust-item:last-child,
+  .trust-item:nth-last-child(2){ border-bottom:none }
+  .trust-tag{
+    font-size:11px;
+    letter-spacing:.22em;
+    text-transform:uppercase;
+    color:var(--moss);
+    margin-bottom:8px;
+    font-weight:600;
+  }
+  .trust-item h4{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:17px;
+    letter-spacing:-.005em;
+    color:var(--ink);
+    margin-bottom:6px;
+  }
+  .trust-item p{
+    font-size:14px;
+    color:var(--ink-mute);
+    line-height:1.5;
+  }
+
+  /* Galeria */
+  .gallery{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-auto-rows:180px;
+    gap:6px;
+  }
+  .gallery figure{
+    position:relative;
+    overflow:hidden;
+    background:var(--paper-2);
+  }
+  .gallery figure img{
+    width:100%; height:100%;
+    object-fit:cover;
+    transition:transform .9s cubic-bezier(.2,.8,.2,1), filter .6s ease;
+    filter:saturate(.92) contrast(1.05);
+  }
+  .gallery figure:hover img{
+    transform:scale(1.05);
+    filter:saturate(1.05);
+  }
+  .gallery figure:nth-child(1){ grid-column:span 2; grid-row:span 2 }
+  .gallery figure:nth-child(6){ grid-column:span 2; grid-row:span 2 }
+
+  .gallery-cta{
+    margin-top:40px;
+    text-align:center;
+  }
+
+  /* CTA final */
+  .final{
+    text-align:center;
+    padding:130px 0 110px;
+    border-top:1px solid var(--rule);
+    background:
+      radial-gradient(ellipse at top, rgba(181,122,26,.12), transparent 60%),
+      var(--paper);
+  }
+  .final h2{
+    margin:0 auto 24px;
+    max-width:18ch;
+    text-align:center;
+  }
+  .final p.final-lead{
+    color:var(--ink-mute);
+    max-width:44ch;
+    margin:0 auto 42px;
+    font-size:16px;
+    text-align:center;
+  }
+  .final .cta-stack{
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+  }
+  .final-note{
+    margin-top:38px;
+    font-size:12.5px;
+    color:var(--ink-dim);
+    letter-spacing:.02em;
+    max-width:48ch;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+  }
+
+  /* Rodapé */
+  footer.foot{
+    padding:38px 0 56px;
+    border-top:1px solid var(--rule);
+    font-size:12.5px;
+    color:var(--ink-dim);
+    background:var(--paper);
+  }
+  footer.foot .wrap{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    flex-wrap:wrap;
+  }
+  footer.foot em{
+    color:var(--ink-mute);
+    font-style:normal;
+  }
+
+  /* Reveals */
+  .reveal{
+    opacity:0;
+    transform:translateY(14px);
+    transition:opacity .8s ease, transform .8s ease;
+  }
+  .reveal.in{ opacity:1; transform:none }
+
+  /* ============================================================
+     RESPONSIVO
+     ============================================================ */
+  @media (max-width: 960px){
+    section.content{ padding:80px 0 }
+    .kpi-grid{ grid-template-columns:repeat(2, 1fr) }
+  }
+
+  @media (max-width: 780px){
+    .wrap{ padding:0 22px }
+    section.content{ padding:70px 0 }
+    .hero{ padding:80px 0 56px }
+    .hero-row{ grid-template-columns:1fr; gap:32px }
+    .lead{ margin-bottom:36px }
+    .stamp{ margin-bottom:24px }
+    .meta-line{ margin-top:28px; gap:8px 18px; font-size:12.5px }
+    .sect-head{ margin-bottom:40px; gap:18px }
+    .dual{ grid-template-columns:1fr; gap:40px }
+    .feature{ grid-template-columns:1fr }
+    .feature-media{ min-height:280px }
+    .feature-content{ padding:36px 28px }
+    .cards{ grid-template-columns:1fr }
+    .card{ padding:30px 26px; min-height:auto }
+    .trust{ grid-template-columns:1fr }
+    .trust-item{ border-right:none; padding:24px }
+    .trust-item:nth-last-child(2){ border-bottom:1px solid var(--rule) }
+    .mosaic{ grid-template-columns:repeat(2, 1fr); grid-auto-rows:120px; gap:6px }
+    .mosaic > *{ grid-column:span 1 !important; grid-row:span 1 !important }
+    .mosaic > *:nth-child(1){ grid-column:span 2 !important; grid-row:span 2 !important }
+    .gallery{ grid-template-columns:repeat(2, 1fr); grid-auto-rows:130px; gap:5px }
+    .gallery figure:nth-child(1),
+    .gallery figure:nth-child(6){ grid-column:span 2; grid-row:span 1 }
+    .pullquote{ min-height:420px }
+    .final{ padding:90px 0 80px }
+  }
+
+  @media (max-width: 480px){
+    .wrap{ padding:0 18px }
+    section.content{ padding:56px 0 }
+    .hero{ padding:70px 0 44px }
+    .stamp{ font-size:10px; padding:6px 12px; margin-bottom:22px; letter-spacing:.2em }
+    .lead{ font-size:15px; margin-bottom:32px }
+    .hero-row{ padding-top:22px; gap:28px }
+    .cta-stack{ width:100%; gap:10px }
+    .btn{ width:100%; padding:14px 18px; font-size:13.5px }
+    .sect-num{ font-size:12px }
+    .sect-sub{ font-size:14px }
+    .kpi{ padding:24px 20px 22px; min-height:130px }
+    .kpi-label{ font-size:12px }
+    .mosaic{ grid-auto-rows:100px; gap:5px }
+    .gallery{ grid-auto-rows:110px }
+    .feature-content{ padding:28px 22px; gap:16px }
+    .feature-specs{ grid-template-columns:1fr }
+    .card{ padding:26px 22px }
+    .card h3{ font-size:20px }
+    .pullquote{ min-height:360px }
+    .pullquote blockquote{ font-size:30px; padding:0 22px }
+    .pullquote blockquote span{ font-size:11px; letter-spacing:.22em; margin-top:16px }
+    .partners{ gap:10px 12px }
+    .partners span{ padding:8px 13px; font-size:12px }
+    .trust-item{ padding:22px 20px }
+    .trust-item h4{ font-size:16px }
+    .trust-item p{ font-size:13.5px }
+    .final{ padding:72px 0 64px }
+    .final p.final-lead{ font-size:15px; margin-bottom:32px }
+    .final .cta-stack{ flex-direction:column; width:100%; align-items:stretch }
+    .final-note{ margin-top:28px; font-size:12px }
+    footer.foot{ padding:28px 0 40px; font-size:12px }
+    footer.foot .wrap{ flex-direction:column; gap:8px }
+  }
+
+  /* Acessibilidade */
+  @media (prefers-reduced-motion: reduce){
+    *, *::before, *::after{
+      animation-duration:.01ms !important;
+      transition-duration:.01ms !important;
+      scroll-behavior:auto !important;
+    }
+    .reveal{ opacity:1 !important; transform:none !important }
+    .mosaic figure:hover img,
+    .gallery figure:hover img,
+    .feature:hover .feature-media img{ transform:none }
+  }
+
+  /* Safe-area iPhone notch */
+  @supports (padding: max(0px)){
+    .wrap{
+      padding-left:max(28px, env(safe-area-inset-left));
+      padding-right:max(28px, env(safe-area-inset-right));
+    }
+    @media (max-width: 780px){
+      .wrap{
+        padding-left:max(22px, env(safe-area-inset-left));
+        padding-right:max(22px, env(safe-area-inset-right));
+      }
+    }
+    @media (max-width: 480px){
+      .wrap{
+        padding-left:max(18px, env(safe-area-inset-left));
+        padding-right:max(18px, env(safe-area-inset-right));
+      }
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============== HERO ============== -->
+<section class="hero">
+  <div class="hero-media">
+    <img src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00773-1.jpg"
+         srcset="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00773-1-1024x576.jpg 1024w,
+                 https://javaripark.com.br/wp-content/uploads/2023/06/DSC00773-1.jpg 1920w"
+         sizes="100vw"
+         alt="Quintal do Javari StrEat Park em operação"
+         fetchpriority="high"
+         decoding="async">
+  </div>
+
+  <div class="wrap">
+    <span class="stamp reveal"><span class="dot"></span>Oportunidade de aquisição</span>
+    <h1 class="title reveal">Um bar pronto. <em>Oito anos</em> de operação. Zero downtime na transição.</h1>
+    <p class="lead reveal">O Javari StrEat Park é um negócio consolidado na Mooca (SP), com marca reconhecida, estrutura completa e operação em funcionamento pleno. O novo proprietário assume uma casa que já recebe, fatura e gira — sem precisar parar para reformar, recontratar ou reposicionar.</p>
+
+    <div class="hero-row">
+      <div class="price-block reveal">
+        <div class="price-label">Valor de transferência</div>
+        <div class="price">R$&nbsp;990.000</div>
+        <div class="price-note">Inclui todos os ativos físicos, contratos ativos, sistemas proprietários, marca e base de clientes. Transferência de CNPJ limpo opcional ao comprador.</div>
+      </div>
+
+      <div class="cta-stack reveal">
+        <a class="btn btn-primary" href="#contato">
+          Conversar sobre a aquisição
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="meta-line">
+      <span>Rua Javari, 112 — Mooca, São Paulo</span>
+      <span>Operação 100% funcional</span>
+      <span>CNPJ adimplente há 12 anos</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============== KPIs ============== -->
+<section class="content">
+  <div class="wrap">
+    <div class="sect-head">
+      <div>
+        <div class="sect-num">01 — Panorama</div>
+        <h2>Números que <em>falam por si</em>.</h2>
+      </div>
+      <p class="sect-sub">Oito anos construindo base, reputação e estrutura. Os indicadores abaixo são públicos ou auditáveis mediante confidencialidade.</p>
+    </div>
+
+    <div class="kpi-grid">
+      <div class="kpi"><div class="kpi-num">8<sup>anos</sup></div><div class="kpi-label">de operação contínua sob a mesma marca e conceito</div></div>
+      <div class="kpi"><div class="kpi-num">45<sup>K+</sup></div><div class="kpi-label">clientes registrados e segmentados em CRM ativo</div></div>
+      <div class="kpi"><div class="kpi-num">23<sup>K+</sup></div><div class="kpi-label">seguidores orgânicos no Instagram (@javaripark)</div></div>
+      <div class="kpi"><div class="kpi-num">4,6<sup>★</sup></div><div class="kpi-label">avaliação no Google com mais de 1.300 reviews</div></div>
+      <div class="kpi"><div class="kpi-num">450<sup>pax</sup></div><div class="kpi-label">capacidade simultânea entre bar, cozinha e palco</div></div>
+      <div class="kpi"><div class="kpi-num">60<sup>+</sup></div><div class="kpi-label">receitas catalogadas e padronizadas em sistema</div></div>
+      <div class="kpi"><div class="kpi-num">65<sup>+</sup></div><div class="kpi-label">fornecedores homologados em cadeia ativa</div></div>
+      <div class="kpi"><div class="kpi-num">40<sup>+</sup></div><div class="kpi-label">bandas parceiras no banco de atrações recorrentes</div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============== A CASA ============== -->
+<section class="content">
+  <div class="wrap">
+    <div class="sect-head">
+      <div>
+        <div class="sect-num">02 — A casa</div>
+        <h2>Um quintal com <em>alma própria</em>.</h2>
+      </div>
+      <p class="sect-sub">Ambiente pet &amp; kids friendly, instagramável, com manutenção em dia. O espaço faz metade do trabalho comercial — é o motivo pelo qual o cliente volta.</p>
+    </div>
+
+    <div class="mosaic mosaic-ambient">
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC01005-1-1024x579.jpg" alt="Vista do quintal do Javari Park"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00878-1-1024x576.jpg" alt="Área externa com mesas"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00681-1-1024x576.jpg" alt="Quintal ao entardecer"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/C0071T01-1-1024x576.jpg" alt="Detalhe do ambiente"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00099-1-1024x576.jpg" alt="Casa em noite de movimento"></figure>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============== ESCOPO ============== -->
+<section class="content">
+  <div class="wrap">
+    <div class="sect-head">
+      <div>
+        <div class="sect-num">03 — Escopo da transferência</div>
+        <h2>Leva <em>tudo</em>. Inclusive o que não se vê.</h2>
+      </div>
+      <p class="sect-sub">O acordo abrange não apenas os bens físicos, mas também os ativos intangíveis que sustentam a operação — marca, sistemas, contratos e know-how.</p>
+    </div>
+
+    <div class="dual">
+      <div>
+        <div class="list-label">Ativos tangíveis</div>
+        <ul class="cols">
+          <li><div><strong>Cozinha completa</strong> · equipamentos, utensílios, estoque inicial e padronização de receitas</div></li>
+          <li><div><strong>Bar equipado</strong> · balcões, geladeiras, freezers, cristalaria e mobiliário</div></li>
+          <li><div><strong>Palco profissional</strong> · sonorização e estrutura para bandas de até 10 integrantes</div></li>
+          <li><div><strong>Bus Lounge</strong> · camarote/lounge instalado em ônibus de 20 metros</div></li>
+          <li><div><strong>Área kids</strong> · montada e em operação</div></li>
+          <li><div><strong>Mobiliário completo</strong> · mesas, cadeiras, decoração e identidade visual do espaço</div></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="list-label">Ativos intangíveis</div>
+        <ul class="cols">
+          <li><div><strong>Marca Javari StrEat Park</strong> · reconhecida no mercado gastronômico de SP há 8 anos</div></li>
+          <li><div><strong>Base de CRM</strong> · +45 mil contatos segmentados, ativos em campanhas</div></li>
+          <li><div><strong>Sistemas proprietários</strong> · plataforma de reservas, gerador de flyer de aniversário, gestão centralizada</div></li>
+          <li><div><strong>Site próprio</strong> · javaripark.com.br, com domínio, infraestrutura e SEO consolidados</div></li>
+          <li><div><strong>Contratos ativos</strong> · Heineken, Ambev, Front e demais fornecedores estratégicos</div></li>
+          <li><div><strong>WhatsApp comercial</strong> · semi-automatizado, com fluxos de atendimento operantes</div></li>
+          <li><div><strong>Banco de freelas</strong> · equipes testadas em cozinha, bar, salão e operação de eventos</div></li>
+          <li><div><strong>Agenda de bandas</strong> · +40 atrações com histórico de performance na casa</div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============== PULL QUOTE ============== -->
+<section class="pullquote">
+  <div class="pullquote-bg">
+    <img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00256-1-1024x576.jpg" alt="">
+  </div>
+  <blockquote>
+    &ldquo;Compre na sexta. Opere no sábado.&rdquo;
+    <span>— tese de transferência</span>
+  </blockquote>
+</section>
+
+
+<!-- ============== BUS LOUNGE ============== -->
+<section class="content">
+  <div class="wrap">
+    <div class="sect-head">
+      <div>
+        <div class="sect-num">04 — Ativo exclusivo</div>
+        <h2>O <em>Bus Lounge</em> — um diferencial que a concorrência não tem como copiar.</h2>
+      </div>
+      <p class="sect-sub">Um ônibus de 20 metros transformado em camarote privativo, instalado dentro do quintal. Virou território de festas de aniversário, chás-revelação e celebrações corporativas — e é o ativo mais fotografado da casa.</p>
+    </div>
+
+    <div class="feature">
+      <div class="feature-media">
+        <img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/IMG_2328-2.jpg" alt="Bus Lounge — camarote instalado em ônibus de 20 metros">
+      </div>
+      <div class="feature-content">
+        <div class="feature-tag">— Camarote privativo</div>
+        <h3>Receita recorrente com <em>ticket médio alto</em>.</h3>
+        <p>Única reserva por dia, consumação mínima, fila de espera em datas comemorativas. O Bus Lounge sozinho justifica uma fatia relevante da conta de eventos privados da casa.</p>
+        <dl class="feature-specs">
+          <dt>Capacidade</dt><dd>40 em pé · 20 sentados</dd>
+          <dt>Comprimento</dt><dd>20 metros</dd>
+          <dt>Estrutura</dt><dd>Piso carpetado · neon · TV 60&quot;</dd>
+          <dt>Reservas</dt><dd>1 por dia · consumação mínima</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============== POR QUE FAZ SENTIDO ============== -->
+<section class="content">
+  <div class="wrap">
+    <div class="sect-head">
+      <div>
+        <div class="sect-num">05 — Por que faz sentido</div>
+        <h2>Quatro razões pelas quais esta <em>não é</em> a aquisição comum de um ponto.</h2>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-tag">·  Continuidade</div>
+        <h3>Operação que não precisa parar</h3>
+        <p>Cozinha, bar e palco funcionando em plena capacidade. Não há necessidade de fechar para reforma, recontratar equipe ou reestruturar a oferta. O fluxo de clientes já existe e é recorrente.</p>
+      </div>
+      <div class="card">
+        <div class="card-tag">·  Posicionamento</div>
+        <h3>Marca com território bem definido</h3>
+        <p>Referência em celebrações — aniversários, chás-revelação, encontros corporativos e eventos privados. Ambiente pet &amp; kids friendly, instagramável, com público fidelizado há quase uma década.</p>
+      </div>
+      <div class="card">
+        <div class="card-tag">·  Receita diversificada</div>
+        <h3>Múltiplas frentes de monetização</h3>
+        <p>Bar, cozinha, shows ao vivo, locação para ensaios e gravações, eventos privados, eventos corporativos e aluguel do Bus Lounge. Receita não depende de uma única fonte.</p>
+      </div>
+      <div class="card">
+        <div class="card-tag">·  Governança</div>
+        <h3>Casa auditada e gerida por processo</h3>
+        <p>Auditoria financeira realizada por consultoria externa (ciclo 2025–2026). Histórico, DREs e indicadores disponíveis mediante NDA. Processos documentados — a casa não depende do proprietário para operar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============== SHOWS ============== -->
+<section class="content">
+  <div class="wrap">
+    <div class="sect-head">
+      <div>
+        <div class="sect-num">06 — Palco e música ao vivo</div>
+        <h2>Uma frente de receita <em>própria</em>.</h2>
+      </div>
+      <p class="sect-sub">Mais de 40 bandas parceiras no banco de atrações, agenda musical recorrente e público que vai à casa especificamente pelo show. O palco não é decoração — é linha de negócio.</p>
+    </div>
+
+    <div class="mosaic mosaic-shows">
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00932-1-1024x576.jpg" alt="Show no palco do Javari Park"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00380-2-1024x576.jpg" alt="Público em noite de show"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00244-1-1024x576.jpg" alt="Banda em apresentação"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00705-2-1024x576.jpg" alt="Energia da casa em noite de música"></figure>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============== PARCEIROS ============== -->
+<section class="content">
+  <div class="wrap">
+    <div class="sect-head">
+      <div>
+        <div class="sect-num">07 — Parcerias ativas</div>
+        <h2>Contratos que já <em>estão de pé</em>.</h2>
+      </div>
+      <p class="sect-sub">Acordos comerciais vigentes com os principais fornecedores de bebidas e insumos do país, incluindo contrapartidas de marketing e suporte operacional.</p>
+    </div>
+
+    <div class="partners">
+      <span>Heineken</span><span>Ambev</span><span>Front</span><span>Amstel</span>
+      <span>Lagunitas</span><span>Blue Moon</span><span>Eisenbahn</span><span>Baden Baden</span>
+      <span>Tanqueray</span><span>Jack Daniel&rsquo;s</span><span>Coca-Cola</span><span>Monster Energy</span>
+      <span>Evino</span><span>Grand Cru</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============== SEGURANÇA JURÍDICA ============== -->
+<section class="content">
+  <div class="wrap">
+    <div class="sect-head">
+      <div>
+        <div class="sect-num">08 — Segurança jurídica e financeira</div>
+        <h2>Transferência <em>limpa</em>, sem herança escondida.</h2>
+      </div>
+      <p class="sect-sub">A estrutura foi desenhada para que o comprador tenha previsibilidade absoluta sobre o que recebe — e sobre o que não recebe.</p>
+    </div>
+
+    <div class="trust">
+      <div class="trust-item">
+        <div class="trust-tag">— CNPJ</div>
+        <h4>12 anos, adimplente, sem restrições</h4>
+        <p>Certidões negativas disponíveis. Transferência do CNPJ é opcional — o comprador decide se assume a pessoa jurídica existente ou abre uma nova para operar o ponto.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-tag">— Licenças</div>
+        <h4>Todos os alvarás e licenças vigentes</h4>
+        <p>Funcionamento, sanitária, bombeiros e demais permissões municipais e estaduais ativas e regulares.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-tag">— Estrutura societária</div>
+        <h4>Sócio único, sem sucessores</h4>
+        <p>Nenhum imbróglio familiar, sucessório ou conjugal sobre o negócio. Decisão e execução da venda não dependem de terceiros.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-tag">— Auditoria</div>
+        <h4>Consultoria financeira externa (ciclo 2025–2026)</h4>
+        <p>DREs, balanços e histórico de caixa revisados por consultoria independente. Toda a documentação é compartilhada mediante assinatura de NDA.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-tag">— Ecossistema de suporte</div>
+        <h4>Contador, advogado e consultor financeiro</h4>
+        <p>Profissionais atuais podem ser mantidos pelo comprador, caso seja de interesse, garantindo continuidade imediata das rotinas jurídico-fiscais.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-tag">— Equipe</div>
+        <h4>Time operante e banco de freelas</h4>
+        <p>Equipe fixa em operação, com banco ativo de profissionais freelance validados para cozinha, bar, salão, segurança e eventos de alta demanda.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============== GALERIA ============== -->
+<section class="content">
+  <div class="wrap">
+    <div class="sect-head">
+      <div>
+        <div class="sect-num">09 — A casa em um olhar</div>
+        <h2>O que você <em>está comprando</em>.</h2>
+      </div>
+      <p class="sect-sub">Seleção de registros do quintal em operação, da área de palco, do Bus Lounge e de noites de movimento.</p>
+    </div>
+
+    <div class="gallery">
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00956-1-1024x576.jpg" alt="Quintal do Javari"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/IMG_2418-3-1024x683.jpg" alt="Clientes na casa"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00152-1-1024x576.jpg" alt="Detalhe do espaço"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00685-1-1024x576.jpg" alt="Ambiente noturno"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00800-1-1024x576.jpg" alt="Casa em movimento"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/IMG_2576-1-1024x683.jpg" alt="Bus Lounge"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/C0105T01-1-1024x576.jpg" alt="Detalhe do bar"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC0077-2-1024x683.jpg" alt="Noite de show"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/IMG_2309-1-1024x683.jpg" alt="Bus Lounge — interior"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/IMG_2399-1-1024x683.jpg" alt="Celebração"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC0088-1-1024x683.jpg" alt="Noite cheia"></figure>
+      <figure><img loading="lazy" decoding="async" src="https://javaripark.com.br/wp-content/uploads/2023/06/DSC00850-3-1024x576.jpg" alt="Quintal"></figure>
+    </div>
+
+    <div class="gallery-cta">
+      <a class="btn btn-ghost" href="https://javaripark.com.br/fotos" target="_blank" rel="noopener">
+        Ver galeria completa
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============== CONTATO ============== -->
+<section class="final" id="contato">
+  <div class="wrap">
+    <div class="sect-num" style="margin-bottom:18px">10 — Próximo passo</div>
+    <h2>Vamos <em>conversar</em></h2>
+    <p class="final-lead">O contato inicial é direto com o proprietário. A partir dele, e mediante NDA, compartilhamos o dossiê financeiro completo e agendamos visita técnica à casa.</p>
+
+    <div class="cta-stack">
+      <a class="btn btn-primary" href="https://wa.me/5511994474544?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20aquisi%C3%A7%C3%A3o%20do%20Javari%20StrEat%20Park." target="_blank" rel="noopener">
+        WhatsApp direto com o proprietário
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+      <a class="btn btn-ghost" href="mailto:oi@javaripark.com.br?subject=Aquisi%C3%A7%C3%A3o%20Javari%20StrEat%20Park">E-mail · oi@javaripark.com.br</a>
+    </div>
+
+    <p class="final-note">Esta página é de acesso restrito. Pedimos confidencialidade no compartilhamento das informações até a conclusão do processo.</p>
+  </div>
+</section>
+
+
+<!-- ============== RODAPÉ ============== -->
+<footer class="foot">
+  <div class="wrap">
+    <div>Javari StrEat Park · Rua Javari, 112 · Mooca, São Paulo/SP</div>
+    <div><em>Documento de natureza confidencial</em></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+  window.addEventListener('load', () => {
+    document.querySelectorAll('.hero .reveal').forEach((el, i) => {
+      setTimeout(() => el.classList.add('in'), 120 + i * 110);
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
